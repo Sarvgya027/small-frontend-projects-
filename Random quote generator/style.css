@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  background: linear-gradient(135deg, lightblue, khaki);
+}
+.container {
+  /* border: 2px solid; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-box {
+  border: 10px solid rgba(255, 166, 0, 0.466);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;
+  width: 800px;
+  background-color: aliceblue;
+}
+
+.quote-box > h2 {
+  /* border: 1px solid; */
+  height: 85%;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: center;
+}
+.btn {
+  position: relative;
+  top: 20px;
+}

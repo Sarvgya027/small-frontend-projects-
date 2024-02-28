@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* section{
+    border: 1px solid;
+} */
+
+.container {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > h2 {
+  font-size: 2rem;
+}
+
+.feedback-form input {
+  display: block;
+  margin-bottom: 40px;
+  width: 200px;
+  padding: 20px;
+  text-align: ;
+}
+
+#Feedback {
+  height: 60px;
+  padding: 60px;
+}
+
+#Feedback::placeholder {
+  text-align: left;
+}
